@@ -128,17 +128,17 @@ export default {
       } else {
         this.optionsValue[val] = [];
       }
-      this.optionsValue[val];
     },
     removeChip(name) {
+      if (this.selectData.find((item) => item.id === name)) {
+        this.optionsValue[name] = [];
+        return;
+      }
       for (let key in this.optionsValue) {
         let itemIndex = this.optionsValue[key].indexOf(name);
-        if (this.selectData.find((item) => item.id === name)) {
-          this.optionsValue[name] = [];
-          return;
-        } else if (itemIndex !== -1) {
+        if (itemIndex !== -1) {
           this.optionsValue[key].splice(itemIndex, 1);
-          return;
+          break;
         }
       }
     },

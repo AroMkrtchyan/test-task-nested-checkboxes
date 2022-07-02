@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import selectDataOptions from "./jsonData/selectData.json";
+import data from "./json-data/data.json";
 import { mapMutations, mapGetters } from "vuex";
 
 import CustomSelect from "./components/CustomSelect.vue";
@@ -22,7 +22,7 @@ export default {
   computed: {
     ...mapGetters(["getSelectedProducts"]),
     selectData() {
-      return selectDataOptions;
+      return data;
     },
   },
   methods: {
