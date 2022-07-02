@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fruits",
+    "label": "Fruits",
+    "children": [
+      {
+        "id": "apple",
+        "label": "Apple  &#127822",
+        "isNew": true
+      },
+      {
+        "id": "grapes",
+        "label": "Grapes  &#127815"
+      },
+      {
+        "id": "pear",
+        "label": "Pear  &#127824"
+      },
+      {
+        "id": "strawberry",
+        "label": "Strawberry  &#127827"
+      },
+      {
+        "id": "watermelon",
+        "label": "Watermelon  &#127817"
+      }
+    ]
+  },
+  {
+    "id": "vegetables",
+    "label": "Vegetables",
+    "children": [
+      {
+        "id": "corn",
+        "label": "Corn  &#127805"
+      },
+      {
+        "id": "carrot",
+        "label": "Carrot  &#129365"
+      },
+      {
+        "id": "eggplant",
+        "label": "Eggplant  &#127814"
+      },
+      {
+        "id": "tomato",
+        "label": "Tomato  &#127813"
+      }
+    ]
+  }
+]
